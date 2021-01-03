@@ -1,0 +1,81 @@
+body{
+    background-color:#f5f5f5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.container-cls{
+    margin: 5rem 0;
+    padding: 0rem 1rem;
+    background-color: white;
+    height: 37rem;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.06), 0 2px 5px 0 rgba(0,0,0,.2);
+}
+.container-cls img{
+    width: 60%;
+    margin-left: 5rem;
+}
+
+/* bootstrap css */
+.card {
+    width: 350px;
+    padding: 10px;
+    border-radius: 20px;
+    background: #fff;
+    border: none;
+    height: 350px;
+    position: relative
+}
+
+/* .container { */
+    /* height: 100vh
+} */
+
+body {
+    background: #eee
+}
+
+.mobile-text {
+    color: #989696b8;
+    font-size: 15px
+}
+
+.form-control {
+    margin-right: 12px;
+    /* padding: 1.3rem 0; */
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #ff8880;
+    outline: 0;
+    box-shadow: none
+}
+
+.cursor {
+    cursor: pointer
+}
+.verify-btn{
+    margin-top: 1rem;
+}
+@media(max-width:768px){
+    body{
+        background-color: white;
+    }
+    .container-cls{
+        margin: 0rem 0;
+    }
+    .container-cls img{
+            margin-left: 2rem;
+            width: 88%;
+        }
+    .container-cls{
+        padding-top: 3rem;
+        height: 53rem;
+        box-shadow: none;
+    }
+    .verify-btn{
+        margin-top: 1.8rem;
+    }
+}
